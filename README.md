@@ -52,13 +52,13 @@ The dataset covers the period from 1959 to 2024 and is provided in the file `PCE
 5. Forecasting models
    The following models were fitted and evaluated:
    - Drift model (random walk with drift)
-   - Exponential smoothing (ETS(A,A,N)
+   - Exponential smoothing (ETS(A,A,N))
    - ARIMA (automatic model selection)
 
 6. Model evaluation
    - Residual diagnostics and Box–Ljung tests were conducted for all models
    - Forecast accuracy was evaluated on the test set using RMSE 
-   - The best-performing model was ARIMA(0,2,2)(2,0,1)[12] with RMSE ≈ 0.0049
+   - The best-performing model was ARIMA(0,2,2)(2,0,1)[12] 
 
 ## Results
 - Best imputation method: Linear interpolation 
@@ -68,3 +68,6 @@ The dataset covers the period from 1959 to 2024 and is provided in the file `PCE
 - The final ARIMA model was trained on the full cleaned series
 - PCE values were forecasted for the next 12 months
 - Forecast results are visualised alongside the historical series
+
+## License
+This project is released under the MIT License. See `LICENSE`.
