@@ -19,8 +19,8 @@ This project applies time series forecasting techniques to predict U.S. Personal
 The dataset covers the period from 1959 to 2024 and is provided in the file `PCE.csv`.
 
 ## Variables
-- PCE — Personal Consumption Expenditures for the given date  
-- observation_date — Date of observation (monthly frequency)
+- `PCE` — Personal Consumption Expenditures for the given date  
+- `observation_date` — Date of observation (monthly frequency)
 
 ## Methodology
 
@@ -70,4 +70,4 @@ The dataset covers the period from 1959 to 2024 and is provided in the file `PCE
 - Forecast results are visualised alongside the historical series
 
 ## License
-This project is released under the MIT License. See `LICENSE`.
+This project is released under the MIT License. See `LICENSE`
